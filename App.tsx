@@ -57,11 +57,11 @@ function Section({children, title}: SectionProps): JSX.Element {
 
 function App() {
   return (
-    <View>
+    <SafeAreaView>
       <View>
         <Text>hi</Text>
       </View>
-    </View>
+    </SafeAreaView>
   )
 }
 
