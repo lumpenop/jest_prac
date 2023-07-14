@@ -1,5 +1,9 @@
 const sum = (a: number, b: number) => {
-  return a - b;
+  return a + b;
 };
 
-export default sum;
+function sumOf(numbers: number[]) {
+  return numbers.reduce((acc, current) => acc + current, 0);
+}
+
+export default {sum, sumOf};
